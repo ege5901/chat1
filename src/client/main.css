@@ -1,0 +1,51 @@
+#main {
+    margin-left: auto;
+    margin-right: auto;  
+    border: solid 2px rgb(0, 0, 0);
+    width: 90% ;
+    height: 400px ;
+    bottom: 0;
+    background: rgb(255, 244, 222);
+    
+}
+
+#input {
+    margin-left: 1%;
+    margin-top: 2px;
+    width: 70%;
+    
+}
+
+#button {
+    width: 25%;
+    margin-top: 2px;
+
+}
+
+.message{
+    background-color: aqua;
+    border: 2px black solid;
+    padding: 1px;
+    border-radius: 2px;
+    width: auto;
+    margin: 2px;
+
+}
+
+.message p{
+    line-height: 3px;
+}
+
+.name{
+    color: red;
+}
+
+body {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+  }

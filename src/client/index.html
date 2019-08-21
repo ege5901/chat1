@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Chat App</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    
-    <input id="input">
-    <button onclick="send();">send</button>
-    <p id="messages"></p>
+    <div id="main">
+        <input id="input">
+        <button id="button" onclick="send();">send</button>
+        <div id="messages"></div>
+    </div>
+
+    <div id="pop-up">
+
+    </div>
 
     <script src="/socket.io/socket.io.js"></script>
     <script>
